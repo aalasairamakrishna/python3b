@@ -1,9 +1,9 @@
 # python3b
 swapping using logical op
-a=0001
-b=1101
-a=a xor b
-b=a xor b
+a=1
+b=2
+a=a ^ b
+b=a ^ b
 a=a xor b
 print(a)
 print(b)
